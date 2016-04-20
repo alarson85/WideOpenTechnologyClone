@@ -1,0 +1,119 @@
+* {
+	box-sizing: box-border;
+}
+
+.border {
+	border: solid black 3px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.header {
+	height: 500px;
+	background-size: cover;
+	background-image: url(http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg);
+	background-position: bottom;
+}
+
+.headerTop {
+	display: flex;
+}
+
+.navbar {
+	padding: 21px 0;
+	color: white;
+	font-family: sans-serif;
+	flex-direction: column;
+}
+
+#navbar:hover	{
+	color: #95a82b;
+}
+
+.contactButton {
+	position: relative;
+	background-color: #40666d;
+	height: 50px;
+	width: 150px;
+	top: -15px;
+	margin-top: -15px;
+	border-radius: 3px;	
+}
+
+.contactButton:hover	{
+	background-color: #bdd537;
+}
+
+.contactText {
+	position: relative;
+	top: 15px;			
+}
+
+.logo {
+	height: 35px;
+	padding: 23px 20px 21px 145px;
+	flex-direction: column;
+}
+
+.intro {
+	height:	300px;
+}
+
+.tools {
+	height: 500px;
+}
+
+.help {
+	height: 900px;
+}
+
+.partners {
+	height: 600px;
+}
+
+.contact {
+	height: 400px;
+}
+
+.footer1 {
+	height: 400px;
+}
+
+/*.contactPhotos {
+	height: 400px;
+	width: 500px;
+}*/
+
+.footer2 {
+	height: 50px;
+	background-color: gray;
+	color: white;
+	font-family: sans-serif;
+	padding-top: 1px;	
+}
+
+#legal a {
+	padding-right: 300px;
+	font: 8px;
+	text-decoration: none;
+	color: lime;
+	padding-top: 0;
+}
+
+.navBut {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.navBut a {
+	text-decoration: none;
+	color: white;
+}
+
+.navBut a:hover {
+	color: lime;
+}
